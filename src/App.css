@@ -1,0 +1,30 @@
+#search {
+  margin-top: 5vh;
+}
+
+#search-input label{
+  font-size: 1.5rem;
+}
+
+#search-input input {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  font-size: 2rem;
+}
+
+#logo {
+  padding-left: 10px;
+}
+
+#header {
+  font-size: 3rem;
+}
+
+.page-footer {
+  margin-top: 100px;
+}
+
+.item-data {
+  padding-left: 2%;
+  padding-right: 2%;
+}
