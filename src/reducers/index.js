@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 import DataReducer from './data_reducer'
 
 const rootReducer = combineReducers({
-  data: DataReducer
-})
+  ebayData: DataReducer
+});
 
-export default rootReducer
+export default rootReducer;

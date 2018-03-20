@@ -1,5 +1,5 @@
 #search {
-  margin-top: 5vh;
+  margin-top: 10px;
 }
 
 #search-input label{
@@ -17,6 +17,7 @@
 }
 
 #header {
+  margin-top: -20px;
   font-size: 3rem;
 }
 

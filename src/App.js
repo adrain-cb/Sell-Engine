@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SearchBar from './containers/SearchBar'
 import Navbar from './components/Navbar'
-import ListItem from './components/ListItem'
+import ItemData from './containers/ItemData'
 import Footer from './components/Footer'
 
 class App extends Component {
@@ -10,18 +10,12 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <SearchBar />
-        <div className="container">
-          <div className="row">
-            <div className="col s12 l6 m6">
-              <h4 className="title left-align">Item Name:</h4>
-            </div>
-            <div className="col s12 l6 m6">
-              <h4 className="title center-align">Recommended Sell Price:</h4>
-            </div>
+        <div className="item-data">
+          <div className="collection z-depth-2">
+            <SearchBar />
+            <ItemData />
           </div>
         </div>
-        <ListItem />
         <Footer />
       </div>
     );

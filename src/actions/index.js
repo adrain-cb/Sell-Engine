@@ -12,7 +12,7 @@ export function fetchData(keywords) {
   const url = `${ROOT_URL}&keywords=${keywords}`
   const request = Axios.get(url)
 
-  console.log("Request", request)
+  console.log("Request: " + request)
 
   return {
     type: FETCH_DATA,
